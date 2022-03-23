@@ -36,7 +36,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: docker-hub-repo/glaringseagull/java-plus-gradle-test
+        image: docker-hub-repo/glaringseagull/java-plus-gradle-pubtest
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
